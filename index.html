@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- <input type="text">
+    <button>Enviar</button>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quaerat ex quas. Ullam incidunt aperiam magnam debitis aut consequuntur, sit laborum quam eos tempora nam repudiandae delectus dolore dolor iste!
+    </p> -->
+    <form>
+        <h3>Meus dados de endereço</h3>
+        <div class="input-container">
+            <input type="text" id="cep" required placeholder="00000-000">
+            <label for="cep">CEP</label> <!--atributo for vincula ao id do input-->
+        </div>
+        <div class="input-container">
+            <input type="text" id="endereco" required placeholder="Ex: Av...">
+            <label for="endereco">Endereço</label>
+        </div>
+        <div class="input-container">
+            <input type="text" id="bairro" required placeholder="Digite o seu bairro">
+            <label for="bairro">Bairro</label>
+        </div>
+        <div class="input-container">
+            <input type="text" id="cidade" required placeholder="Digite sua cidade">
+            <label for="cidade">Cidade</label>
+        </div>
+        <button type="submit"><span>Pesquisar</span></button>
+    </form>
+</body>
+</html>
